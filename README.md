@@ -1,70 +1,29 @@
-# Getting Started with Create React App
+# Overview
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+My focus is centered around upgrading my skills and understanding of contemporary programming techniques. I am recreating a Task Management System using React. This is a transition from a previous [TypeScript project](https://github.com/sowbyspencer/Web-Based-Task-Management-System). This offers me a valuable opportunity to delve into the intricacies of React.js.
 
-## Available Scripts
+In the current state, the project successfully mirrors the appearance of my previous TypeScript project through React components. However, the search functionality, `Task.js`, and `TaskList.js` components have not been implemented. Lines of code that were going towards the handling of the states has been commented out and replaced with lines of code to maintain compilability and appearance.
 
-In the project directory, you can run:
+[Software Demo Video](https://youtu.be/kR7GgyhSDM4)
 
-### `npm start`
+# Web Pages
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The application's interface is currently simplified, focusing on the main page that lists tasks. Functionality to add, remove, edit, and search hasn't been implemented, only the HTML for appearance has.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# Development Environment
 
-### `npm test`
+Developed using Visual Studio Code, the project leverages React.js for building user interfaces. Node.js and npm are used for dependency management and to run the development server. The project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), simplifying the setup process for React applications.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Useful Websites
 
-### `npm run build`
+- [React Official Documentation](https://reactjs.org/docs/getting-started.html)
+- [Tutorialspoint - ReactJS Tutorial](https://www.tutorialspoint.com/reactjs/index.htm)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Future Work
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Looking ahead, the project aims to:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Consider a fresh approach to more effectively utilize React's component-based architecture, rather than closely mirroring the TypeScript project structure.
+- Implement the search functionality, `Task.js`, and `TaskList.js` components to enhance task management capabilities.
+- Explore backend integration for persistent data storage.
+- Further improve UI/UX for a seamless user experience.

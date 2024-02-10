@@ -6,9 +6,9 @@ function TasksDisplay({tasks}) {
         <section id="tasksDisplay" style={style}>
             <h2 style={style.h2}>Tasks</h2>
             <ul>
-            {tasks.map(task => (
+            {/* {tasks.map(task => (
                 <Task key={task.id} task={task} />
-            ))}
+            ))} */}
             </ul>
         </section>
     );
